@@ -60,6 +60,7 @@ body {
 .calculator {
   display: grid;
   place-items: center;
+  
   min-height: 100vh;
 }
 
@@ -210,7 +211,7 @@ input::placeholder {
   color: var(--grey-550);
   font-size: var(--fs-m);
   font-weight: 700;
-  padding: 0.65rem auto;
+  padding: 0.65rem;
   max-width: 100%;
 }
 
