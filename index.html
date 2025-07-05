@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Tip calculator app</title>
+  </head>
+
+  <body>
+    <main class="calculator">
+      <img src="images/logo.svg" alt="Spitter logo" class="logo" />
+
+      <div class="calculator__card">
+        <!-- Form section -->
+        <section class="calculator__form">
+          <div>
+            <label for="bill">Bill</label>
+            <div class="input-group">
+              <span class="icon"
+                ><img src="images/icon-dollar.svg" alt=""
+              /></span>
+              <input type="number" id="bill" placeholder="0" />
+            </div>
+          </div>
+
+          <div>
+            <p>Select Tip %</p>
+            <div class="tip-buttons">
+              <button class="tip">5%</button>
+              <button class="tip">10%</button>
+              <button class="tip">15%</button>
+              <button class="tip">25%</button>
+              <button class="tip">50%</button>
+              <button class="custom">Custom</button>
+            </div>
+          </div>
+
+          <div>
+            <div class="label-row">
+            <label for="people">Number of People</label>
+            <p id="error-text" class="error-message">Can’t be zero</p>
+            </div>
+            <div class="input-group">
+              <span class="icon"
+                ><img src="images/icon-person.svg" alt=""
+              /></span>
+              <input type="number" id="people" placeholder="0" />
+            </div>
+          </div>
+        </section>
+
+        <!-- Results section -->
+        <section class="calculator__result">
+          <div class="result-content">
+            <div class="result-line">
+              <div class="result-label">
+                <p>Tip Amount</p>
+                <span>/ person</span>
+              </div>
+
+              <p class="amount" id="tip-amount">$0.00</p>
+            </div>
+
+            <div class="result-line">
+              <div class="result-label">
+                <p>Total</p>
+                <span>/ person</span>
+              </div>
+
+              <p class="amount" id="total">$0.00</p>
+            </div>
+          </div>
+
+          <button class="reset" id="reset-btn">RESET</button>
+        </section>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
