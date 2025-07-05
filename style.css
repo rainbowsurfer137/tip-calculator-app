@@ -168,7 +168,6 @@ input::placeholder {
 }
 
 
-
 /* Tip Buttons */
 
 .tip-buttons {
@@ -187,7 +186,7 @@ input::placeholder {
   color: var(--white);
   font-size: var(--fs-m);
   font-weight: 700;
-  padding: .75rem;
+  padding: .5rem;
   max-width: 100%;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -319,8 +318,8 @@ input::placeholder {
 
   .tip-buttons {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: var(--spacing-200);
     width: 100%;
   }

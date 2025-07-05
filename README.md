@@ -28,11 +28,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](images/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/tip-calculator-app-using-grid-and-javascript-Wxuy7nXuhT]
 - Live Site URL: [https://rainbowsurfer137.github.io/tip-calculator-app/]
 
 ## My process
