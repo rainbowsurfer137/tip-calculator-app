@@ -144,7 +144,6 @@ input::placeholder {
   border-color: var(--orange-400);
 }
 
-
 .label-row {
   display: flex;
   justify-content: space-between;
@@ -221,7 +220,7 @@ input::placeholder {
 .calculator__result {
   background-color: var(--green-900);
   border-radius: 15px;
-  padding: var(--spacing-300);
+  padding: var(--spacing-400);
   width: 100%;
   max-width: 26.5625rem;
   display: grid;
